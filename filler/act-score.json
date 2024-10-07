@@ -1,0 +1,17 @@
+[
+    {
+      "score": "<15",
+      "interpretation": "Asthme non contrôlé",
+      "intervention": "Essayez de trouver la cause : 1/ Observance thérapeutique, 2/ Technique d'inhalation, choix du dispositif d'inhalation, 3/ Interaction avec un β-bloquant, 4/ Mesures non-médicamenteuses mal suivies, 5/ Traitement inadapté"
+    },
+    {
+      "score": "15-19",
+      "interpretation": "Asthme partiellement contrôlé",
+      "intervention": "1/ Observance thérapeutique, 2/ Technique d'inhalation, choix du dispositif d'inhalation, 3/ Interaction avec un β-bloquant, 4/ Mesures non-médicamenteuses mal suivies, 5/ Traitement inadapté"
+    },
+    {
+      "score": "20-25",
+      "interpretation": "Asthme bien contrôlé",
+      "intervention": "Informez le patient que son asthme est bien sous contrôle et insistez sur l'importance de continuer à prendre chaque jour le médicament"
+    }
+  ]

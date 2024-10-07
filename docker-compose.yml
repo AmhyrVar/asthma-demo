@@ -1,0 +1,31 @@
+services:
+  neo4j:
+    image: neo4j:5.22
+    container_name: neo4j_asthma_demo
+    environment:
+      - NEO4J_AUTH=neo4j/781227pAssWord!
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - ./data:/data
+      - ./logs:/logs
+      - ./import:/var/lib/neo4j/import
+      - ./plugins:/plugins
+  
+  api:
+    build: ./api  # Chemin vers le Dockerfile de l'API
+    container_name: api_asthma
+    ports:
+      - "8000:8000"
+    depends_on:
+      - neo4j
+
+  streamlit:
+    build: ./streamlit_app  # Chemin vers votre application Streamlit
+    container_name: streamlit_asthma
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+      - neo4j

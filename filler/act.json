@@ -1,0 +1,130 @@
+{
+    "questions": [
+      {
+        "question": "Au cours des 4 dernières semaines, votre asthme vous a-t-il empêché(e) de pratiquer vos activités au travail, à l'école/université ou chez vous ?",
+        "options": [
+          {
+            "label": "Tout le temps",
+            "score": 1
+          },
+          {
+            "label": "La plupart du temps",
+            "score": 2
+          },
+          {
+            "label": "Quelques fois",
+            "score": 3
+          },
+          {
+            "label": "Rarement",
+            "score": 4
+          },
+          {
+            "label": "Jamais",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "question": "Au cours des 4 dernières semaines, avez-vous été essoufflé(e) ?",
+        "options": [
+          {
+            "label": "Plus d'1 fois par jour",
+            "score": 1
+          },
+          {
+            "label": "1 fois par jour",
+            "score": 2
+          },
+          {
+            "label": "3 à 6 fois par semaine",
+            "score": 3
+          },
+          {
+            "label": "1 ou 2 fois par semaine",
+            "score": 4
+          },
+          {
+            "label": "Jamais",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "question": "Au cours des 4 dernières semaines, les symptômes de l'asthme (sifflements dans la poitrine, toux, essoufflement, oppression ou douleur dans la poitrine) vous ont-ils réveillé(e) la nuit ou plus tôt que d'habitude le matin ?",
+        "options": [
+          {
+            "label": "4 nuits ou plus par semaine",
+            "score": 1
+          },
+          {
+            "label": "2 à 3 nuits par semaine",
+            "score": 2
+          },
+          {
+            "label": "1 nuit par semaine",
+            "score": 3
+          },
+          {
+            "label": "Juste 1 ou 2 fois",
+            "score": 4
+          },
+          {
+            "label": "Jamais",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "question": "Au cours des 4 dernières semaines, combien de fois avez-vous utilisé votre inhalateur/aérosol-doseur de secours ?",
+        "options": [
+          {
+            "label": "3 fois ou plus par jour",
+            "score": 1
+          },
+          {
+            "label": "1 ou 2 fois par jour",
+            "score": 2
+          },
+          {
+            "label": "2 ou 3 fois par semaine",
+            "score": 3
+          },
+          {
+            "label": "1 fois ou moins par semaine",
+            "score": 4
+          },
+          {
+            "label": "Jamais",
+            "score": 5
+          }
+        ]
+      },
+      {
+        "question": "Comment évalueriez-vous votre maîtrise de l'asthme au cours des 4 dernières semaines ?",
+        "options": [
+          {
+            "label": "Pas maîtrisé du tout",
+            "score": 1
+          },
+          {
+            "label": "Très peu maîtrisé",
+            "score": 2
+          },
+          {
+            "label": "Un peu maîtrisé",
+            "score": 3
+          },
+          {
+            "label": "Bien maîtrisé",
+            "score": 4
+          },
+          {
+            "label": "Totalement maîtrisé",
+            "score": 5
+          }
+        ]
+      }
+    ]
+  }
+  
