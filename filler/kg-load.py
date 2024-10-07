@@ -9,10 +9,10 @@ password = "781227pAssWord!"
 driver = GraphDatabase.driver(uri, auth=(username, password))
 
 # Charger le fichier JSON depuis la racine du projet
-with open('act.json', 'r', encoding='utf-8') as f:
+with open('filler/act.json', 'r', encoding='utf-8') as f:
     questions_data = json.load(f)
 
-with open('act-score.json', 'r', encoding='utf-8') as f:
+with open('filler/act-score.json', 'r', encoding='utf-8') as f:
     score_data = json.load(f)
 
 
